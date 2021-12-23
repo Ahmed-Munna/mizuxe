@@ -1,0 +1,99 @@
+.navbar{
+    box-shadow: 2px 2px 2px #3292a6;
+    background: #fff;
+    opacity: 0.9;
+    border-radius: 0 !important;
+}
+body{
+    margin-top: 76px;
+}
+.nav-item{
+    font-size: 1.2rem;
+    padding-right: 20px;
+}
+.nav-item:last-child{
+    padding-right: 0;
+}
+.nav-link{
+    color:#252525;
+}
+.nav-link:hover{
+    color: #3292a6 !important;
+}
+#showcase{
+    background-image: url(../img/mountains.jpg);
+    min-height: 700px;
+    position: relative;
+    background-attachment: fixed;
+}
+.primary-overlay{
+    background: rgba(50, 146, 156, 0.7);
+    min-height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+.readButton{
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+.subccribeBtn{
+    background: #3292a6;
+}
+#subscribe{
+    background: #252525;
+}
+.extra{
+    border: 1px solid #3292a6;
+}
+.card-heading,.book-heading{
+    color: #3292a6;
+}
+.activee{
+    background: #3292a6;
+    color:#fff;
+}
+.activee > .card-body >.card-heading{
+    color:#fff;
+}
+h4 span{
+    font-family: arial;
+    font-weight: 500;
+}
+footer{
+    background: #3292a6;
+}
+.rounded-circle{
+    margin-top: -70px;
+}
+.card-hov:hover{
+    background: #3292a6;
+    color: #fff;
+}
+.fab{
+    font-size: 25px;
+    cursor: pointer;
+}
+textarea{
+    height: 150px;
+}
+.submit-btn{
+    background: #3292a6;
+    color: #fff;
+    border-radius: 0 !important;
+}
+.submit-btn:hover{
+    color: #fff;
+}
+@media(max-width:991px){
+    .card-bottom{
+        margin-top: 140px;
+    }
+}
+@media(max-width:767px){
+    .card-btm{
+        margin-top: 140px;
+    }
+}
